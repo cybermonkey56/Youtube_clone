@@ -52,6 +52,17 @@
     row-gap: 40px;
 
 }
+
+@media (max-width: 1050px){
+    .video_grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 1300px){
+    .video_grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
 .video_time{
     background-color: black;
     color: white;
